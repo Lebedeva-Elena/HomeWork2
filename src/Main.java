@@ -108,6 +108,10 @@ public class Main {
     System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + (newSalaryDenis * 12 - salaryDenis * 12));
     float newSalaryKristina = salaryKristina + salaryKristina * (10 / 100F);
     System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + (newSalaryKristina * 12 - salaryKristina * 12));
+    long salaryLastYear = (salaryMaria + salaryDenis + salaryKristina) * 12L;
+    float salaryThisYear = (newSalaryMaria + newSalaryDenis + newSalaryKristina) * 12F;
+    System.out.println("Разница между зарплатами предыдущего года и этого составляет " + (salaryThisYear - salaryLastYear) + " рублей");
+
 
     }
 }
