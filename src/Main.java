@@ -110,9 +110,7 @@ public class Main {
     System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + (newSalaryKristina * 12 - salaryKristina * 12));
     long salaryLastYear = (salaryMaria + salaryDenis + salaryKristina) * 12L;
     float salaryThisYear = (newSalaryMaria + newSalaryDenis + newSalaryKristina) * 12F;
-    System.out.println("Разница между зарплатами предыдущего года и этого составляет " + (salaryThisYear - salaryLastYear) + " рублей");
-
-
+    System.out.println("Разница между зарплатами за 2 года составляет " + (salaryThisYear - salaryLastYear) + " рублей");
     }
 }
 
